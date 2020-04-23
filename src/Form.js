@@ -149,7 +149,7 @@ export default function Form(props) {
                 </Grid>
                 <Grid container>
                     <Grid item xs>
-                        <Link href="#" variant="body2">
+                        <Link href="https://github.com/shukieshah/VerifAI" variant="body2">
                             Github Project Repo
                         </Link>
                     </Grid>

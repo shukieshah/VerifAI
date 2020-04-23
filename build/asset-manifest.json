@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/VerifAI/static/css/main.5e4b93e1.chunk.css",
-    "main.js": "/VerifAI/static/js/main.4f0e6d69.chunk.js",
-    "main.js.map": "/VerifAI/static/js/main.4f0e6d69.chunk.js.map",
+    "main.js": "/VerifAI/static/js/main.e9f6ee2b.chunk.js",
+    "main.js.map": "/VerifAI/static/js/main.e9f6ee2b.chunk.js.map",
     "runtime-main.js": "/VerifAI/static/js/runtime-main.61a35488.js",
     "runtime-main.js.map": "/VerifAI/static/js/runtime-main.61a35488.js.map",
     "static/js/2.9488ffcf.chunk.js": "/VerifAI/static/js/2.9488ffcf.chunk.js",
     "static/js/2.9488ffcf.chunk.js.map": "/VerifAI/static/js/2.9488ffcf.chunk.js.map",
     "index.html": "/VerifAI/index.html",
-    "precache-manifest.62410e24cf43a0527b955d359f30e881.js": "/VerifAI/precache-manifest.62410e24cf43a0527b955d359f30e881.js",
+    "precache-manifest.16a4fa8d55b690c6ac8672ea514238dd.js": "/VerifAI/precache-manifest.16a4fa8d55b690c6ac8672ea514238dd.js",
     "service-worker.js": "/VerifAI/service-worker.js",
     "static/css/main.5e4b93e1.chunk.css.map": "/VerifAI/static/css/main.5e4b93e1.chunk.css.map",
     "static/js/2.9488ffcf.chunk.js.LICENSE.txt": "/VerifAI/static/js/2.9488ffcf.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.61a35488.js",
     "static/js/2.9488ffcf.chunk.js",
     "static/css/main.5e4b93e1.chunk.css",
-    "static/js/main.4f0e6d69.chunk.js"
+    "static/js/main.e9f6ee2b.chunk.js"
   ]
 }
