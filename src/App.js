@@ -8,21 +8,13 @@ import Img from 'react-image';
 
 function App() {
 
-  const [image, setImage] = useState('splash.jpg');
-
   useEffect(() => {
     document.title = "VerifAI";
   }, []);
 
-  const changeImage = (type) => {
-    setImage(type + '.jpg');
-  };
-
-
   return (
     <div className="App">
-      <Img height={'800'} width={950} src={require('./images/' + image)}/>
-      <Form changeImage={changeImage}/>
+      <Form/>
     </div>
   );
 }

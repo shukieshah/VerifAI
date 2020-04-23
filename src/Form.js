@@ -13,7 +13,12 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import Img from 'react-image';
 import './App.css';
+
+import fakeImage from './images/fake.jpg';
+import realImage from './images/real.jpg';
+import unsureImage from './images/unsure.jpg';
 
 
 
@@ -41,6 +46,7 @@ export default function Form(props) {
     const [enteredText, setText] = useState('');
     const [enteredURL, setURL] = useState('');
     const [submit, setSubmit] = useState(false);
+    const [image, setImage] = useState('./');
 
 
     useEffect(() => {
@@ -52,6 +58,10 @@ export default function Form(props) {
 
     const urlInputHandler = e => {
         setURL(e.target.value);
+    };
+
+    const changeImage = (type) => {
+        setImage(require('./images/' + type + '.jpg'));
     };
 
     const submitHandler = e => {
@@ -85,7 +95,7 @@ export default function Form(props) {
                         imageType = "fake";
                     }
 
-                    props.changeImage(imageType);
+                    changeImage(imageType);
                     document.getElementById("message").innerHTML = message;
                 });
         }
@@ -104,6 +114,13 @@ export default function Form(props) {
             <Typography component="h1" variant="h6">
                 Natural Language Fake News Detection
             </Typography>
+            <Grid container>
+                    <Grid item xs>
+                        <Link href="https://github.com/shukieshah/VerifAI" variant="body2">
+                            Github Project Repo
+                        </Link>
+                    </Grid>
+            </Grid>
             <form className={classes.form} noValidate>
                 <TextField
                     value={enteredURL}
@@ -145,15 +162,10 @@ export default function Form(props) {
                 <Grid container>
                     <Grid item xs>
                         <p id="message">Please enter the article text and full source URL (optional).</p>
+                        <Img height={300} width={400} src={image}/>
                     </Grid>
                 </Grid>
-                <Grid container>
-                    <Grid item xs>
-                        <Link href="https://github.com/shukieshah/VerifAI" variant="body2">
-                            Github Project Repo
-                        </Link>
-                    </Grid>
-                </Grid>
+                
             </form>
         </div>
         
