@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5675e7627368114fffdfab241d9499b0",
+    "revision": "340f6598c4eba5b56e259533e0a7a764",
     "url": "/VerifAI/index.html"
   },
   {
-    "revision": "9abbda32f311ef1ecf09",
-    "url": "/VerifAI/static/css/main.5e4b93e1.chunk.css"
+    "revision": "3367f977111a33f1a688",
+    "url": "/VerifAI/static/css/main.ae64e187.chunk.css"
   },
   {
-    "revision": "80f7f661f563a87e3ab5",
-    "url": "/VerifAI/static/js/2.9488ffcf.chunk.js"
+    "revision": "e926f015747e44904111",
+    "url": "/VerifAI/static/js/2.7ec53c42.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/VerifAI/static/js/2.9488ffcf.chunk.js.LICENSE.txt"
+    "url": "/VerifAI/static/js/2.7ec53c42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9abbda32f311ef1ecf09",
-    "url": "/VerifAI/static/js/main.eebb182e.chunk.js"
+    "revision": "3367f977111a33f1a688",
+    "url": "/VerifAI/static/js/main.c8f42d4e.chunk.js"
   },
   {
     "revision": "c914f96d930e2c31e207",
