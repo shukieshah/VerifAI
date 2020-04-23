@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/VerifAI/precache-manifest.d153300af7f0ac212f52c4871a57a348.js"
+  "/VerifAI/precache-manifest.62410e24cf43a0527b955d359f30e881.js"
 );
 
 self.addEventListener('message', (event) => {

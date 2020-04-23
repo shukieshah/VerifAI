@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a5474fe23a3cd6e7b189ae1c0a420cd",
+    "revision": "ed0dbbfdd4669c88d5dff76827bbf5e3",
     "url": "/VerifAI/index.html"
   },
   {
-    "revision": "9edc2bd5658a3912980b",
+    "revision": "b5c8edb6276e66b0b838",
     "url": "/VerifAI/static/css/main.5e4b93e1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VerifAI/static/js/2.9488ffcf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9edc2bd5658a3912980b",
-    "url": "/VerifAI/static/js/main.ba6d5c84.chunk.js"
+    "revision": "b5c8edb6276e66b0b838",
+    "url": "/VerifAI/static/js/main.4f0e6d69.chunk.js"
   },
   {
     "revision": "c914f96d930e2c31e207",

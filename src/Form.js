@@ -64,7 +64,9 @@ export default function Form(props) {
         var message = "";
         var imageType = "";
         if (enteredText.trim().length > 0) {
-            fetch('https://52.201.213.228/verifai?url=' + enteredURL.trim() + '&text=' + enteredText.trim(), {
+            const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
+
+            fetch(corsAnywhere + 'http://54.227.44.231//verifai?url=' + enteredURL.trim() + '&text=' + enteredText.trim(), {
                 method: 'GET'
             }).then((response) => response.json())
                 .then((responseJson) => {
@@ -76,10 +78,10 @@ export default function Form(props) {
                         message = "...We're not quite sure about this article. The text seems fishy but the source is trustworthy."
                         imageType = "unsure";
                     } else if (!responseJson.is_trusted_url && responseJson.is_trusted_text) {
-                        message = "We can't be 100% sure, but this article seems to be REAL news."
+                        message = "We're not 100% sure, but this article seems to be REAL news."
                         imageType = "real";
                     } else {
-                        message = "We can't be 100% sure, but this article seems to be FAKE news."
+                        message = "We're not 100% sure, but this article seems to be FAKE news."
                         imageType = "fake";
                     }
 
