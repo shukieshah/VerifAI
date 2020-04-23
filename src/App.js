@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Img backgroundSize='cover' height={'800'} width={950} src={require('./images/' + image)}/>
+      <Img height={'800'} width={950} src={require('./images/' + image)}/>
       <Form changeImage={changeImage}/>
     </div>
   );

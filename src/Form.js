@@ -64,7 +64,7 @@ export default function Form(props) {
         var message = "";
         var imageType = "";
         if (enteredText.trim().length > 0) {
-            fetch('https://54.82.94.154/verifai?url=' + enteredURL.trim() + '&text=' + enteredText.trim(), {
+            fetch('https://52.201.213.228/verifai?url=' + enteredURL.trim() + '&text=' + enteredText.trim(), {
                 method: 'GET'
             }).then((response) => response.json())
                 .then((responseJson) => {
