@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/VerifAI/static/css/main.5e4b93e1.chunk.css",
+    "main.js": "/VerifAI/static/js/main.ba6d5c84.chunk.js",
+    "main.js.map": "/VerifAI/static/js/main.ba6d5c84.chunk.js.map",
+    "runtime-main.js": "/VerifAI/static/js/runtime-main.61a35488.js",
+    "runtime-main.js.map": "/VerifAI/static/js/runtime-main.61a35488.js.map",
+    "static/js/2.9488ffcf.chunk.js": "/VerifAI/static/js/2.9488ffcf.chunk.js",
+    "static/js/2.9488ffcf.chunk.js.map": "/VerifAI/static/js/2.9488ffcf.chunk.js.map",
+    "index.html": "/VerifAI/index.html",
+    "precache-manifest.d153300af7f0ac212f52c4871a57a348.js": "/VerifAI/precache-manifest.d153300af7f0ac212f52c4871a57a348.js",
+    "service-worker.js": "/VerifAI/service-worker.js",
+    "static/css/main.5e4b93e1.chunk.css.map": "/VerifAI/static/css/main.5e4b93e1.chunk.css.map",
+    "static/js/2.9488ffcf.chunk.js.LICENSE.txt": "/VerifAI/static/js/2.9488ffcf.chunk.js.LICENSE.txt",
+    "static/media/fake.jpg": "/VerifAI/static/media/fake.c4b4e3a2.jpg",
+    "static/media/real.jpg": "/VerifAI/static/media/real.69c23f19.jpg",
+    "static/media/splash.jpg": "/VerifAI/static/media/splash.d9802e53.jpg",
+    "static/media/unsure.jpg": "/VerifAI/static/media/unsure.6e7b16b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61a35488.js",
+    "static/js/2.9488ffcf.chunk.js",
+    "static/css/main.5e4b93e1.chunk.css",
+    "static/js/main.ba6d5c84.chunk.js"
+  ]
+}
