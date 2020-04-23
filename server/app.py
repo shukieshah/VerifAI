@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, request
 import utils
 import json
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/verifai')
+@cross_origin()
 def verifai():
     url = request.args.get('url', '')
     text = request.args.get('text', '')

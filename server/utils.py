@@ -17,6 +17,8 @@ def initialize_model(model_dir):
 
 
 def is_trusted_url(url, trusted_sources):
+    if len(url) > 4 and url[0:4] != 'http':
+        url = 'https://' + url
     domain = urlparse(url).netloc
     return domain in trusted_sources
 
