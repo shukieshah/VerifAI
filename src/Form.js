@@ -76,7 +76,7 @@ export default function Form(props) {
         if (enteredText.trim().length > 0) {
             const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
 
-            fetch(corsAnywhere + 'http://54.227.44.231//verifai?url=' + encodeURI(enteredURL.trim()) + '&text=' + encodeURI(enteredText.trim()), {
+            fetch(corsAnywhere + 'http://54.227.44.231//verifai?url=' + encodeURIComponent(enteredURL.trim()) + '&text=' + encodeURIComponent(enteredText.trim()), {
                 method: 'GET'
             }).then((response) => response.json())
                 .then((responseJson) => {
