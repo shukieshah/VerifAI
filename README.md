@@ -4,7 +4,7 @@
 
 Developed by [Shukan Shah](https://github.com/shukieshah)
 
-VerifAI is a tool built to distinguish between human-written fake news and real news. The tool uses the state-of-the-art (BERT)[https://arxiv.org/pdf/1810.04805.pdf] language model to classify articles. For more details regarding the NLP research and development behind this project, please refer to the [parent repository](https://github.com/jpyneni3/Fake_News_Detector).
+VerifAI is a tool built to distinguish between human-written fake news and real news. The tool uses the state-of-the-art [BERT](https://arxiv.org/pdf/1810.04805.pdf) language model to classify articles. For more details regarding the NLP research and development behind this project, please refer to the [parent repository](https://github.com/jpyneni3/Fake_News_Detector).
 
 You can view the live version of VerifAI at: https://shukieshah.github.io/VerifAI/
 
@@ -14,7 +14,7 @@ This repository contains the front-end and server-side development code for the 
 
 The front-end was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In order to run the front-end application, ensure you have Node.js and npm installed.
+In order to run the front-end application, ensure you have [Node.js](https://nodejs.org/en/) and npm installed.
 
 First, install the node modules:
 
@@ -32,6 +32,12 @@ You will also see any lint errors in the console.
 
 ## Python Flask Server
 
-To run the Flask server (called by the React app), navigate to the server directory and ensure the necessary dependencies are installed via `pip3 install -r requirements.txt`. Then simply run `python3 app.py`.
+To run the Flask server (called by the React app), navigate to the server directory and ensure the necessary dependencies are installed via:
+
+### `pip3 install -r requirements.txt`
+
+Then simply run:
+
+### `python3 app.py`
 
 *Note: You must have the necessary model files present within the directory.
