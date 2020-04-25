@@ -23,7 +23,7 @@ def verifai():
 
 if __name__ == '__main__':
     # Load a trained, fine-tuned model and vocabulary
-    model, tokenizer = utils.initialize_model('saved_model')
+    model, tokenizer = utils.initialize_model('saved_model_hybrid')
     with open('trusted_sources.json') as f:
         trusted_sources = json.load(f)
 

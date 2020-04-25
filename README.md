@@ -16,7 +16,7 @@ This repository contains the front-end and server-side development code for the 
 
 In order to run the Flask server successfully in development, you should train your own model using the code and guidelines in the [BERT_Hybrid notebook](./server/Model-Training/BERT_Hybrid.ipynb). We highly recommend running the notebook on the free GPU provided by [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb#recent=true). All the necessary data is already provided to you in the directory.
 
-Once the model is finished training, upload the saved_model folder to the server directory.
+Once the model is finished training and saved to your Google Colab session, upload the saved_model folder to the server directory.
 
 ### Front-End
 
