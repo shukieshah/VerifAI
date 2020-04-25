@@ -4,7 +4,7 @@
 
 Developed by [Shukan Shah](https://github.com/shukieshah)
 
-VerifAI is a tool built to distinguish between human-written fake news and real news. The tool uses the state-of-the-art [BERT](https://arxiv.org/pdf/1810.04805.pdf) language model to classify articles. For more details regarding the NLP research and development behind this project, please refer to the [parent repository](https://github.com/jpyneni3/Fake_News_Detector).
+VerifAI is a web application that uses natural language processing to verify the authenticity of news articles. It is specifically built to distinguish between human-written fake news and real news. The tool uses the state-of-the-art [BERT](https://arxiv.org/pdf/1810.04805.pdf) language model to classify articles. For more details regarding the NLP research and development behind this project, please refer to the [parent repository](https://github.com/jpyneni3/Fake_News_Detector).
 
 You can view the live version of VerifAI at: https://shukieshah.github.io/VerifAI/
 
