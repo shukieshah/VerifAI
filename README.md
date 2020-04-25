@@ -49,3 +49,9 @@ Then simply run:
 #### `python3 app.py`
 
 *Note: You must have the necessary model files present within the directory.
+
+Open [http://localhost:5000/verifai?text=](http://localhost:5000/verifai?text=) to view it in the browser.
+
+*Note: The front-end tool will not be functional if the server is not running
+
+
