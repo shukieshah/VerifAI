@@ -8,7 +8,7 @@ VerifAI is a web application that uses natural language processing to verify the
 
 You can view the live version of VerifAI at: https://shukieshah.github.io/VerifAI/
 
-We hope that VerifAI serves as a useful tool for the wider community. Please note that the tool is, by no means, perfect. The tool is not meant for neural fake news detection and sometimes classifies fake news as real. This is due to the wide variance of fake news in the real world that our model was not trained to detect. After all, this is precisely what makes reliable fake news detection such a difficult problem to solve!
+We hope that VerifAI serves as a useful tool for the wider community. Please note that the tool is, by no means, perfect. It uses language patterns, not fact-checking, to determine the authenticity of news articles. The tool is not meant for neural fake news detection and sometimes classifies fake news as real. This is due to the wide variance of fake news in the real world that our model was not trained to detect. After all, this is precisely what makes reliable fake news detection such a difficult problem to solve!
 
 ## Instructions for running VerifAI in development mode
 
