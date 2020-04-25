@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, request
 import utils
 import json
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/verifai')
+@cross_origin()
 def verifai():
     url = request.args.get('url', '')
     text = request.args.get('text', '')
@@ -19,7 +23,7 @@ def verifai():
 
 if __name__ == '__main__':
     # Load a trained, fine-tuned model and vocabulary
-    model, tokenizer = utils.initialize_model('saved_model_grover_b')
+    model, tokenizer = utils.initialize_model('saved_model')
     with open('trusted_sources.json') as f:
         trusted_sources = json.load(f)
 

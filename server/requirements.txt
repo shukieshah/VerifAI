@@ -3,3 +3,5 @@ tensorflow==2.1.0
 nltk==3.5
 keras==2.3.1
 Flask==1.1.2
+flask_cors==1.1.2
+transformers

@@ -74,9 +74,7 @@ export default function Form(props) {
         var message = "";
         var imageType = "";
         if (enteredText.trim().length > 0) {
-            const corsAnywhere = 'https://cors-anywhere.herokuapp.com/';
-
-            fetch(corsAnywhere + 'http://54.227.44.231//verifai?url=' + encodeURIComponent(enteredURL.trim()) + '&text=' + encodeURIComponent(enteredText.trim()), {
+            fetch('http://127.0.0.1:5000//verifai?url=' + encodeURIComponent(enteredURL.trim()) + '&text=' + encodeURIComponent(enteredText.trim()), {
                 method: 'GET'
             }).then((response) => response.json())
                 .then((responseJson) => {
@@ -165,11 +163,11 @@ export default function Form(props) {
                         <Img height={300} width={400} src={image}/>
                     </Grid>
                 </Grid>
-                
+
             </form>
         </div>
-        
-        
+
+
     </Container>
   );
 }
