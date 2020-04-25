@@ -8,6 +8,8 @@ VerifAI is a tool built to distinguish between human-written fake news and real 
 
 You can view the live version of VerifAI at: https://shukieshah.github.io/VerifAI/
 
+We hope that VerifAI serves as a useful tool for the wider community. Please note that the tool is, by no means, perfect. The tool is not meant for neural fake news detection and sometimes classifies fake news as real. This is due to the wide variance of fake news in the real world that our model was not trained to detect. After all, this is precisely what makes reliable fake news detection such a difficult problem to solve!
+
 This repository contains the front-end and server-side development code for the tool. Due to GitHub file size limits, the final trained model has not been uploaded. Thus, the Python Flask API endpoint that the React application calls is not currently functional in development mode. In order to run the Flask server successfully in development, you should train your own model using the guidelines in the [parent repository](https://github.com/jpyneni3/Fake_News_Detector) and upload the model files to a directory called saved_model in the server folder.
 
 ## Front-End
